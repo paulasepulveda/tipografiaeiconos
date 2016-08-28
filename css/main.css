@@ -1,0 +1,75 @@
+.botones {
+	width: 1300px;
+	height: 300px;
+	background-color: none;
+	font-family: 'Arima Madurai', cursive;
+	position: absolute;
+	top: 200px;
+	left: 120px;
+}
+
+.boton {
+	height: 310px;
+	display: inline-block;
+	float:left;
+	text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.cuadro {
+	width: 200px;
+	height: 300px;
+	padding: 5px;
+	background-color: #E7F0F1;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.icon-paperplane:before {
+  content: "\e903";
+  font-size: 50px;
+}
+
+.icon-heart:before {
+  content: "\e900";
+ font-size: 50px;
+}
+
+.icon-diamond:before {
+  content: "\e901";
+   font-size: 50px;
+}
+
+.icon-cup:before {
+  content: "\e902";
+  font-size: 50px;
+}
+
+.icon-food:before {
+  content: "\e904";
+  font-size: 50px;
+}
+
+p {
+	font-size: 14px;
+	padding:5px;
+	font-family: Arial;
+}
+
+.boton:after {
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+.boton:hover {
+	box-shadow: 1px 3px 3px 1px;
+	padding: 5px
+	transition: width 1s;
+	color:#7062B8;
+	transform:scale(1.1,1.1);
+}
+
